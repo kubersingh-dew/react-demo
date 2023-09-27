@@ -1,9 +1,10 @@
 import React from 'react';
 import {View, Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
+import {navigate} from './RootNavigation';
 
 const ListComponent = props => {
   navigatedToPlayer = item => {
-    props.navigation.navigate('Player', {item});
+    navigate('Player', {item});
   };
 
   return (
