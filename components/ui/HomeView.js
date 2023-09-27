@@ -7,6 +7,7 @@ import VideoPlayBackList from './VideoPlayBackList';
 import axios from 'axios';
 const HomeView = props => {
   const [videoData, setVideoData] = useState({});
+  axios.defaults.timeout = 3000;
   useEffect(() => {
     axios
       .get(

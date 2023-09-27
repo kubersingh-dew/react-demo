@@ -42,10 +42,12 @@ const DrawerView = props => {
 
   const closeSignUpDialog = () => {
     setSignUpDialogVisible(false);
+    setTypeDialogVisible(true);
   };
 
   const handleEmailSignUp = () => {
     setSignUpDialogVisible(true);
+    setTypeDialogVisible(false);
   };
 
   return (

@@ -145,7 +145,7 @@ const LoginTypeDialog = ({isVisible, onClose, onEmailSignUp, loginInfo}) => {
               <Text style={styles.signup}>SignUp</Text>
             </Pressable>
           </View>
-         {/* <View style={styles.signupView} >
+          {/* <View style={styles.signupView} >
             <Text style={{padding: 5}}>Email-Id is not Verified </Text>
             <Pressable onPress={onEmailSignUp}>
               <Text style={styles.signup}>Send Mail</Text>
