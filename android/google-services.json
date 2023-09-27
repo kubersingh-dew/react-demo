@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "39583862096",
+    "project_id": "react-demo-eedc5",
+    "storage_bucket": "react-demo-eedc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39583862096:android:df99748ad13b2f88a33055",
+        "android_client_info": {
+          "package_name": "com.streamingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39583862096-pmsboup4p9pm2667cviv1cl6d993slua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.streamingapp",
+            "certificate_hash": "a722da171c2c00662db49836001549a3d0213e09"
+          }
+        },
+        {
+          "client_id": "39583862096-6lejbtm8ga44qjacjot20tunuf3irban.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAafWsu7Y7ivZLa8vblb86G1-PLyMO8OhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39583862096-6lejbtm8ga44qjacjot20tunuf3irban.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
